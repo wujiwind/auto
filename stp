@@ -1,0 +1,17 @@
+templates_path = ['_templates']
+exclude_patterns = ['_build', '_templates', 'README.md', 'ReleaseInstructions.md', 'jupyter_execute']
+master_doc = 'index'
+numfig = True
+numfig_secnum_depth = 2
+math_numfig = True
+math_number_all = True
+
+# suppress_warnings = ['misc.highlighting_failure']
+
+html_theme = 'furo' # furo.readthedocs.io
+html_theme_options = {
+    'sidebar_hide_name': True,
+    'light_logo': 'autogluon.png',
+    'dark_logo': 'autogluon-w.png',
+    'globaltoc_collapse': False,
+}
